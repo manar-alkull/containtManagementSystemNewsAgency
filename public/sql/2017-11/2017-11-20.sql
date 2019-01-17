@@ -1,0 +1,5 @@
+-- mohammad mustafa make menus_languages and categories_languages
+ALTER TABLE `menus_languages` DROP FOREIGN KEY `menus_languages_ibfk_1`; ALTER TABLE `menus_languages` ADD CONSTRAINT `menus_languages_ibfk_1` FOREIGN KEY (`language_id`) REFERENCES `ai-project`.`languages`(`id`) ON DELETE CASCADE ON UPDATE CASCADE; ALTER TABLE `menus_languages` DROP FOREIGN KEY `menus_languages_ibfk_2`; ALTER TABLE `menus_languages` ADD CONSTRAINT `menus_languages_ibfk_2` FOREIGN KEY (`menu_id`) REFERENCES `ai-project`.`menus`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+
+ALTER TABLE `categories_languages` DROP FOREIGN KEY `categories_languages_ibfk_1`; ALTER TABLE `categories_languages` ADD CONSTRAINT `categories_languages_ibfk_1` FOREIGN KEY (`language_id`) REFERENCES `ai-project`.`languages`(`id`) ON DELETE CASCADE ON UPDATE CASCADE; ALTER TABLE `categories_languages` DROP FOREIGN KEY `categories_languages_ibfk_2`; ALTER TABLE `categories_languages` ADD CONSTRAINT `categories_languages_ibfk_2` FOREIGN KEY (`categorie_id`) REFERENCES `ai-project`.`categories`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;

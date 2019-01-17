@@ -1,0 +1,178 @@
+body{
+    direction: rtl;
+}
+section.content{
+    direction: rtl;
+    
+}
+.table > thead:first-child > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th{
+   text-align: right;
+}
+.subscriber-form .personal-info, .subscriber-form .job-info, .subscriber-form .address-info, .user-form .user-info, .auth-item-form .auth-item-info {
+    padding-right: 2.4%; 
+    padding-left: 0;
+}
+.subscriber-form .form-left-col,.subscriber-form .form-right-col,
+.subscriber-form .form-group, .user-form .form-group{
+    float: right;
+}
+.subscriber-form .form-left-col .form-group:nth-child(odd),.user-form .form-group:nth-child(odd){
+    margin-right: 0%;
+    margin-left: 5%;
+}
+.subscriber-form .job-info .form-group:nth-child(even),
+.subscriber-form .address-info .form-group:nth-child(even){
+     margin-right: 0%;
+    margin-left: 5%;
+}
+.input-group-addon:last-child {
+    border-left: 1px solid #d2d6de;
+    border-right:0;
+}
+.main-sidebar, .left-side{
+    right:0;
+    left: auto;
+}
+.content-wrapper, .right-side, .main-footer {
+    
+    margin-right: 230px;
+    margin-left: 0;
+    
+}
+.main-header .logo {
+    
+    float: right;
+   
+}
+.main-header > .navbar {
+   margin-left: 0;
+    margin-right: 230px;
+   
+}
+.main-header .sidebar-toggle {
+    float: right;
+    
+}
+.main-header .navbar-custom-menu, .main-header .navbar-right {
+    float: left;
+}
+.navbar-nav > li {
+    float: right;
+}
+.sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .right-side, .sidebar-mini.sidebar-collapse .main-footer {
+    margin-right: 50px !important;
+    z-index: 840;
+    margin-left: 0 !important;
+}
+.sidebar-mini.sidebar-collapse .main-header .navbar {
+    margin-right: 50px;
+    margin-left: 0px;
+}
+.sidebar-menu li > a > .pull-right {
+    position: absolute;
+    top: 50%;
+    right: auto;
+    left: 10px;
+    margin-top: -7px;
+}
+.card-details .vehicle-info-container, .card-new .vehicle-info-container, .card-new .family-info-container, .card-new .personal-info-container {
+    float: right;
+}
+.card-details .vehicle-info-container, .card-new .vehicle-info-container, .card-new .family-info-container, .card-new .personal-info-container {
+ 
+    float: right;
+}
+.card-new .personal-info-container.info h2{
+    float: right;
+}
+
+.search-btn {
+    float: left;
+   margin-left: 2%;
+}
+.card-new .personal-info {
+    margin-left: 2%;
+    margin-right: 0;
+   
+}
+.card-search .main-filters, .card-search .family-filters, .card-search .vehicle-filters, .card-search .extra-filters {
+   
+    float: right;
+}
+
+.card-search .main-filters {
+   
+    margin-right: 0;
+    margin-left: 2%
+}
+.vehicle-view th{
+    text-align: right;
+}
+.nav-tabs > li {
+    float: right;
+}
+.permissions-group {
+   
+    float: right;
+  
+}
+.navbar-custom-menu > .navbar-nav > li > .dropdown{
+    left:0;
+    right:auto;
+}
+.navbar-custom-menu > .navbar-nav > li > .dropdown-menu {
+    position: absolute;
+    right: auto;
+    left: 0;
+}
+.icon-btn {
+    padding: 1px 2px 3px 15px;
+  
+}
+.btn-glyphicon {
+    padding: 8px;
+    background: #ffffff;
+    margin-right: 0px;
+    margin-left: 4px;
+}
+.plan-view .detail-view th{
+    text-align: right;
+}
+
+.single-report-link {
+   
+    float: right;
+   
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 2px solid #ddd;
+    text-align: right;
+}
+.update-person-form .personal-info-container, .update-person-form .job-info-container, .update-person-form .contact-info-container {
+   
+    float:right;
+   
+}
+.vehicle-update-col-right,.vehicle-update-col-left{
+    width:49%;
+    float:right;
+    border: 2px solid #ccc;
+    margin-right: 0%;
+    margin-left: 1%;
+}
+.vehicle-update-col-right{
+    margin-left: 0;
+    
+}
+
+.box-header>.box-tools {
+    position: absolute;
+    left: 10px;
+    right: auto;
+    top: 5px;
+}
+.confirm-btn{
+    float: right;
+}

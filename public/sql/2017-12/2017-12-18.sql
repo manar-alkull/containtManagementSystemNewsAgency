@@ -1,0 +1,1 @@
+ALTER TABLE `items_languages` ADD `image_title` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER `image`, ADD `image_alt` MEDIUMTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER `image_title`;
